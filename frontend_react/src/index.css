@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Slabo+27px&family=Tourney:wght@100;200;300;400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Slabo+27px&display=swap'); */
+
+:root {
+  --font-base: "DM Sans", sans-serif;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+.darkTheme {
+  --secondary-color: #030303;
+  --lightGray-color: #1e2324;
+  --white-color: #1e2324;
+  --black-color: #ffffff;
+  --primary-color: #313bac;
+  --lightGray-color: #ffffff;
+}
+.darkTheme .circle-cmp,
+.darkTheme .app__header-badge .badge-cmp,
+.darkTheme .app__header-badge .tag-cmp {
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 40%);
+}
+.darkTheme .app__navbar {
+  background-color: #1e2324 !important;
+}
+.darkTheme .app__navbar a,
+.darkTheme .tag-cmp p .Typewriter span {
+  color: white !important;
+}
+.darkTheme #home {
+  background: none !important;
+  background-color: #1e2324 !important;
+}
+.darkTheme .app__work-item h4 {
+  color: black !important;
+}
+.darkTheme .app__skills-exp-year p {
+  color: white !important;
+}
+.darkTheme .app__social div:hover {
+  background-color: white;
+}
+.darkTheme .app__testimonial-content h4 {
+  color: white;
+}
+.darkTheme .app__testimonial-btns div svg {
+  color: white;
+}
+.darkTheme .app__footer-card a {
+  color: #1e2324;
+}
+.darkTheme .app__footer-form button {
+  color: white;
+}
+.darkTheme .app__footer-form div input,
+.darkTheme .app__footer-form div textarea {
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Slabo 27px", serif;
+}
